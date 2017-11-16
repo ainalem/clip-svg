@@ -1,0 +1,18 @@
+{
+  "name": "clip-svg",
+  "version": "1.0.0",
+  "description": "Convert 100x100 SVG docuemnt path descriptors ('d') to clip-path: polygon(...)",
+  "main": "clip-svg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clip-path",
+    "SVG"
+  ],
+  "author": "Mikael Ainalem",
+  "license": "MIT",
+  "bin": {
+    "clip-path": "./index.js"
+  }
+}
