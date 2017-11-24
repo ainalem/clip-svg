@@ -1,7 +1,7 @@
 {
   "name": "clip-svg",
   "version": "1.0.0",
-  "description": "Convert 100x100 SVG docuemnt path descriptors ('d') to clip-path: polygon(...)",
+  "description": "Convert 100x100 SVG document's path descriptors ('d') to clip-path: polygon(...)",
   "main": "clip-svg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
