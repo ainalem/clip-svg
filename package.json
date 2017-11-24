@@ -1,6 +1,6 @@
 {
   "name": "clip-svg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert 100x100 SVG document's path descriptors ('d') to clip-path: polygon(...)",
   "main": "clip-svg.js",
   "scripts": {
