@@ -8,11 +8,11 @@ function round(x) {
 }
 
 if (!file || !fs.existsSync(file)) {
-  console.log('PRINT HELP');
+  console.log(`Usage: clip-path [SVG file]`);
   process.exit(1);
 }
 
-fs.readFile( file, 'utf8', function ( err, buffer ) {
+fs.readFile( file, 'utf8', function (err, buffer) {
   if ( err ) { throw err; }
 
   // Parse for SVG path descriptor

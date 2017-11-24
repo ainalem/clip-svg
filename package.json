@@ -13,6 +13,6 @@
   "author": "Mikael Ainalem",
   "license": "MIT",
   "bin": {
-    "clip-path": "./index.js"
+    "clip-svg": "./index.js"
   }
 }
