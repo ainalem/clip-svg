@@ -60,7 +60,6 @@ fs.readFile( file, 'utf8', function (err, buffer) {
   }
 
   descriptors = descriptors.map((descriptor) => descriptor.slice(6, -3));
-  console.dir(descriptors);
 
   descriptors.forEach((descriptor) => {
     descriptor2clipPath(descriptor);
